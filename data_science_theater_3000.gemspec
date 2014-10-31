@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_runtime_dependency 'activesupport', '>= 3.0.3'
-  s.add_runtime_dependency 'i18n', '0.4.0'
+  s.add_runtime_dependency 'i18n', '>= 0.4.0'
   s.add_dependency 'curb'
   s.add_dependency 'json'
   s.add_development_dependency "rake"
